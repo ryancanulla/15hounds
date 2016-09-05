@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+    flex: 0 0 75px;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    font-size: 14px;
+    margin-left: 20px;
+    height: 60px;
+}
+
+.menuButton {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}

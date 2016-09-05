@@ -1,0 +1,32 @@
+:host {
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.contentContainer {
+    flex: 0 0 100%;
+    transition: all 0.13s ease-in;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentContainer.sidebarOpen {
+    margin-left: calc(-100% + 80px);
+}
+
+.sidebarContainer {
+    flex: 0 0 calc(100% - 80px);
+}
+
+@media (min-width: 992px) {
+
+    .contentContainer.sidebarOpen {
+        margin-left: -250px;
+    }
+
+    .sidebarContainer {
+        flex: 0 0 250px;
+    }
+
+}

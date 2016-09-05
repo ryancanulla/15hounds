@@ -1,0 +1,87 @@
+:host {
+    display: flex;
+    flex: 0 0 100%;
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+.topHeader {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.topHeader .title {
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.topHeader .title span {
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.topHeader .message {
+    max-width: 474px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #888;
+    font-weight: normal;
+}
+
+.bottomSection {
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    background-color: white;
+}
+
+.bottomSection .map {
+    flex: 0 0 65%;
+    background-color: lightcyan;
+    opacity: .5;
+}
+
+.bottomSection .contactForm {
+    flex: 0 0 35%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+}
+
+.bottomSection .contactForm .form-control {
+    margin: 10px 0;
+}
+
+.contactHeader .title {
+    color: #2b2b2b;
+    display: block;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    position: relative;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 50px 0 10px;
+    text-align: center;
+}
+
+.contactHeader .message {
+    color: #888;
+    padding: 25px 0;
+}
+
+.bottomSection .submitContactButton {
+    margin-left: auto;
+    display: block;
+}
