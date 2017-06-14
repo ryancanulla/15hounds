@@ -1,0 +1,7 @@
+{
+  "name": "15hounds",
+  "version": "0.0.1",
+  "devDependencies": {
+    "local-web-server": "^1.2.7"
+  }
+}
